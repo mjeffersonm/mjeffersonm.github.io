@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PLAY LIST-TRACK</title>
+	<!--<link rel="stylesheet" type="text/css" href="css/css.css"> -->
+	<link rel="stylesheet" type="text/css" href="sweetalert/sweetalert2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<meta charset="utf-8">
+</head>
+<body background="wallpapers-full-hd-3d-abstract.jpg">
+
+	
+	<div class="container">
+<center>
+		<div class="col-7" style="background-color: white;margin: 9px;border-radius: 10px" >	
+			<br><h1><img src="images.jpg" > DEEZER PLAYLIST_TRACK <img src="images.jpg" > </h1><br>
+		</div>
+</center>	
+		<div class="form-group row">
+		      <div class="col-2">
+		      	<button type="button" class="btn btn-danger" id="buscar" onclick="buscar()">OBTENER PLAYLIST</button>
+		      </div>		    
+	  	</div>
+
+
+	  	<div class="row">
+    		<div class="col-sm-8">
+      		<table class="table" >
+  			<thead class="thead-light">	
+			    <tr>
+			      <th scope="col">Titulo</th>
+			      <th scope="col">Duracion</th>
+			      <th scope="col">Imagen</th>
+			      <th scope="col">Usuario</th>
+			      <th scope="col">Lista Track</th>   
+			    </tr>
+  			</thead>
+  				<tbody id="table_mostrar" class="table table-bordered">
+			  	</tbody>
+			</table>
+    		</div>
+
+    		<div class="col-sm-4">
+      		<table class="table">
+  			<thead class="thead-light">	
+			    <tr>
+			      <th scope="col">Titulo</th>
+			      <th scope="col">Nombre Artista</th>
+			      <th scope="col">Imagen</th>    
+			    </tr>
+  			</thead>
+  				<tbody id="table_mostrar2" class="table table-bordered">
+			  	</tbody>
+			</table>
+    		</div>
+
+	</div>
+ 
+	<!-- <script src="./mp3.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/api.js"></script>
+	<script src="sweetalert/sweetalert2.min.css.js"></script>
+
+	
+</body>
+</html>
+
